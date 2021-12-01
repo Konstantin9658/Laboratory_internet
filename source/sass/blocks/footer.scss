@@ -1,0 +1,13 @@
+.footer {
+  flex: 0 0 auto;
+  min-height: 88px;
+  text-align: center;
+  border-top: 1px solid $light-gray;
+  @include flex-center;
+
+  p {
+    @include font(18px, 32px, 400, normal);
+    color: $mostly-black;
+    margin: 0;
+  }
+}
